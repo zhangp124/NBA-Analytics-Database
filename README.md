@@ -49,7 +49,7 @@ The database includes 10+ normalized tables with primary and foreign key relatio
 
 ## Data Used:
 https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/data
-Players.CSV, PlayerStatistics.csv, TeamStatistics.csv, Games.csv
+- Players.CSV, PlayerStatistics.csv, TeamStatistics.csv, Games.csv
 
 ---
 
