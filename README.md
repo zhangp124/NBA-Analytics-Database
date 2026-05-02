@@ -60,5 +60,8 @@ https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-sc
 SELECT player_id, PER
 FROM AdvancedPlayerStats
 ORDER BY PER DESC;
+```
+## Disclaimer: 
+Some data may have been lost due to size of the file
 
 
