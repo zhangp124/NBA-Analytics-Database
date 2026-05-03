@@ -1,3 +1,8 @@
+-- Added Fields for Primary Key (GameStatID, PlayerStatID)
+ALTER TABLE PlayerStatistics/TeamStatistics 
+ADD COLUMN PlayerStatID/GameStatID AUTOINCREMENTAL;
+
+
 --Player Performance Query
 SELECT PlayerID, AVG(Points) AS AvgPoints
 FROM PlayerStatistics
