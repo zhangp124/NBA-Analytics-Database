@@ -1,6 +1,6 @@
 -- Added Fields for Primary Key (GameStatID, PlayerStatID)
 ALTER TABLE PlayerStatistics/TeamStatistics 
-ADD COLUMN PlayerStatID/GameStatID AUTOINCREMENTAL;
+ADD COLUMN PlayerStatID/GameStatID AUTOINCREMENT;
 
 
 --Player Performance Query
