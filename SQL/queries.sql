@@ -1,7 +1,9 @@
--- Added Fields for Primary Key (GameStatID, PlayerStatID)
-ALTER TABLE PlayerStatistics/TeamStatistics 
-ADD COLUMN PlayerStatID/GameStatID AUTOINCREMENT;
-
+-- Finding orphan personid(s) 
+SELECT ps.PersonID
+FROM PlayerStatistics ps
+LEFT JOIN Players p
+ON ps.PersonID = p.PersonID
+WHERE p.PersonID IS NULL;
 
 --Player Performance Query
 SELECT PlayerID, AVG(Points) AS AvgPoints
