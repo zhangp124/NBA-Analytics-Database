@@ -25,17 +25,16 @@ The system supports both Eastern and Western Conferences, allowing for league-wi
 ## 🧱 Database Design
 
 ### Core Entities:
-- Team  
 - Player  
 - Game  
-- PlayerStats  
-- TeamStats  
+- PlayerStatistics  
+- TeamStatistics  
 
 ### Advanced Metrics:
 - AdvancedPlayerStats (PER, True Shooting %, Usage Rate, Win Shares)
 - AdvancedTeamStats (Offensive Rating, Defensive Rating, Net Rating)
 
-The database includes 10+ normalized tables with primary and foreign key relationships to ensure data integrity.
+The database includes 4 normalized tables with primary and foreign key relationships to ensure data integrity.
 
 ---
 
