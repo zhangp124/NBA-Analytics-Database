@@ -53,14 +53,6 @@ https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-sc
 
 ---
 
-## 📊 Sample Queries
-
-### Top Players by Efficiency
-```sql
-SELECT player_id, PER
-FROM AdvancedPlayerStats
-ORDER BY PER DESC;
-```
 ## Disclaimer: 
 Some data may have been lost due to size of the file
 
